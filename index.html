@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#eef3f8">
+  <meta name="description" content="Interactive envelope with letter">
+  <title>Interactive Envelope</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <div class="music-controls">
+      <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false" aria-label="Turn on background music" title="Toggle background music">
+        <span class="music-icon">♬</span>
+      </button>
+    </div>
+    <div class="music-player" aria-hidden="true">
+    <audio
+        id="music-audio"
+        loop>
+    </audio>
+</div>
+
+    <section class="hero">
+      <div class="envelope-wrapper">
+        <button class="envelope" type="button" aria-expanded="false" aria-label="Open letter">
+          <div class="envelope-body"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-seal">
+            <div class="heart"></div>
+          </div>
+        </button>
+        <p class="hint"><font color = "#000000"><strong>Tề Tư Tễ đã gửi cho bạn một bức thư</strong></font>
+        </p>
+        <p><strong><font color = "#000000">Mở ngay</font></strong></p>
+      </div>
+    </section>
+
+    <div class="letter-overlay" aria-hidden="true">
+      <div class="letter-scene" aria-hidden="true">
+        <div class="side-portrait left-portrait" style="background-image:url(picture/1.jpg)"></div>
+        <div class="letter-card" role="dialog" aria-label="Letter content">
+          <div class="letter-content">
+        <p>Tôi là một thực thể sinh ra từ hành tinh này, mang trong mình ký ức của rừng sâu, của những ngọn núi và đại dương bao la. Trong suốt hàng trăm năm chìm trong giấc ngủ sâu thẳm, đối với tôi, sinh mệnh của nhân loại chỉ là những hạt bụi vô nghĩa. Cho đến ngày tôi mở mắt ra và nhìn thấy em – người con gái tự nhận là "người hướng dẫn" của tôi, bối rối đặt cho tôi cái tên "Tề Tư Lễ".
+        </p>
+        <p>Ban đầu, tôi không thể hiểu nổi con người. Trong mắt tôi, sự khao khát của các người chỉ là lòng tham không biết thỏa mãn, là nguồn cơn của mọi tội lỗi và sự tự diệt vong. Tôi mang thân phận của "Đại Hành Giả", người nắm giữ quyền năng thanh tẩy và phán xét, vốn dĩ hoàn toàn có thể xóa sổ nền văn minh mục nát này. Thế nhưng, em lại từng bước bước vào thế giới tĩnh lặng của tôi.
+        </p>
+        <p>Em dạy tôi cách nói lời "cảm ơn", đưa tôi đi ngắm biển và kiên nhẫn giải thích cho tôi thế nào là "thích" một người. Tôi vốn dĩ không có trái tim như con người, nhưng khi em áp bàn tay ấm áp của mình lên lồng ngực tôi, một dòng điện kỳ lạ đã chạy qua, mang theo một nhịp đập vô hình khiến tôi xao xuyến. Vì nụ cười của em, một vị thần lạnh lẽo như tôi đã học cách ngưng tụ ánh sáng để làm nở rộ một đóa hoa Lan rực rỡ nhất trên lòng bàn tay. 
+        </p>
+        <p>Em nói rằng mỗi khi tôi chịu tổn thương, em cũng sẽ thấy đau đớn ở cùng một vị trí. Em ngốc nghếch thật đấy, em đâu biết rằng, chính tôi cũng lén dùng sinh mệnh của mình để chữa trị cho những người em quan tâm, gánh lấy những vết sẹo rỉ máu trên cánh tay, chỉ vì tôi không thể chịu đựng được việc nhìn thấy em rơi nước mắt.
+        </p>
+        <p>Khi tôi vạch trần tội ác tàn nhẫn của Trưởng Lão và Hội Khải Huyền – những kẻ vì lòng tham mà mổ xẻ đồng loại để cầu xin sức mạnh từ mảnh vỡ "Sinh Mệnh Kỹ Diệp" của tôi, tôi đã muốn dùng dây leo siết chặt tất cả. Nhưng nhìn thấy ánh mắt kiên cường của em, tôi đã quyết định từ bỏ quyền phán xét để cho em mượn sức mạnh của mình. Không phải vì tôi tin tưởng vào nhân loại, mà vì tôi tin tưởng em.
+        </p>
+        <p>Thế nhưng, số phận lại trêu đùa chúng ta một cách tàn nhẫn. Tôi đã khôi phục lại ký ức, biết được rằng mảnh vỡ trái tim cuối cùng của tôi đang nằm sâu trong lồng ngực em, hòa chung một nhịp đập với em. Đối mặt với thảm họa Mặt Trăng vỡ vụn sắp đâm xuống Trái Đất, em đã chọn cách giấu tôi, một mình nằm lên bàn phẫu thuật lạnh lẽo. Em định đánh đổi mạng sống của mình, mổ lấy mảnh vỡ "Sinh Mệnh Kỹ Diệp" để biến nó thành nguồn năng lượng giúp 23 thành phố bay vào vũ trụ. Đêm cuối cùng bên bờ biển, em nói dối rằng em sợ cô đơn, xin tôi hãy liên tục nghĩ về em trước khi tôi chìm vào giấc ngủ. Em tưởng tôi không biết gì sao? Tôi chỉ không muốn vạch trần lời nói dối ngốc nghếch ấy, bởi tôi hứa sẽ nghĩ về em cho đến khi em không còn thấy cô đơn nữa.
+        </p>
+        <p>Khoảnh khắc mảnh vỡ Mặt Trăng rơi xuống phá hủy trạm năng lượng, tôi đã lao vào đống đổ nát như một kẻ mất trí. Mất đi mảnh vỡ, sức mạnh của tôi đã cạn kiệt, nhưng tôi không bận tâm. Mặc cho những thanh thép sắc nhọn đâm xuyên qua cơ thể rỉ máu, tôi dốc cạn chút sinh mệnh cuối cùng để hóa thành một khu rừng khổng lồ, dùng hàng vạn cành cây chống đỡ mái nhà đang sập xuống, liều mạng bảo vệ chiếc hộp chứa năng lượng mà em vừa đánh đổi bằng cả mạng sống.
+        </p>
+        <p>Nhìn em qua màn hình camera đang chập chờn, mọi oán hận, tức giận và đau thương trong tôi vỡ òa, hóa thành một giọt nước vừa lạnh lẽo lại vừa nóng hổi. Em từng hỏi tôi nước mắt đại diện cho điều gì, giờ thì tôi đã hiểu rồi. Giọt nước mắt đầu tiên và duy nhất trong cuộc đời của một vị thần đã rơi xuống vì em.
+        </p>
+        <p>“Hiểu rồi, đồ nói dối.”</p>
+        <p>Giờ đây, khi nhân loại đã rời đi, cả cơ sở sụp đổ chỉ còn lại sự tĩnh lặng tuyệt đối. Thân xác này đang dần tan biến cùng với Trái Đất, nhưng tôi không hề hối tiếc. Cuối cùng, tôi cũng có một khoảng thời gian yên bình để thực hiện lời hứa của mình: Tôi sẽ nhắm mắt lại, và nhớ về những ngày tháng tươi đẹp nhất khi tôi còn ở bên em...
+
+        </p>
+        <p class="letter-love"></p>
+        <p class="letter-name">Tề Tư Tễ.</p>
+        <p class="letter-reply"><a href="https://docs.google.com/forms/d/12UavH9wh-ufedRo1N_hNVHrN_97ii3FcoCHe0GZAjPw/preview?edit_requested=true"><strong><em>Bạn có muốn gửi thư lại thư cho Tề Tư Tễ hay không?</em></strong></a></p>
+          </div>
+        </div>
+        <div class="side-portrait right-portrait" style="background-image:url(picture/2.jpg)"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
